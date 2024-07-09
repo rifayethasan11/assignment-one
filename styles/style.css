@@ -68,6 +68,7 @@ body {
 .banner-container h1 {
     text-align: center;
     margin-bottom: 28px;
+    font-weight: 900px;
 }
 
 .banner-container p {
@@ -78,7 +79,7 @@ body {
 .banner-container button {
     width: 208px;
     height: 66px;
-    font-family: ;
+    font-family: "Azeret Mono", monospace;
     border-radius: 8px;
     background: rgb(13, 19, 33);
     color: white;
@@ -274,5 +275,39 @@ body {
     margin-top: 32px;
 }
 
-
 /* why web dev styles ends here */
+/* my inspiration styles starts here */
+.ins-container {
+    width: 1140px;
+    height: 777px;
+    margin: 0 auto;
+    margin-top: 88px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.ins-content {
+    text-align: center;
+}
+.ins-content p {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    margin-top: 28px;
+}
+.ins-content h6 {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 18px;
+}
+
+#vv {
+    width: 1076px;
+    height: 550px;
+    border-radius: 16px;
+}
+/* my inspiration styles ends here */
