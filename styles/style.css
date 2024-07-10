@@ -76,13 +76,16 @@ body {
     margin-bottom: 18px;
 }
 
-.banner-container button {
+.cc {
+    text-decoration: none;
+}
+
+#bb {
     width: 208px;
     height: 66px;
     font-family: "Azeret Mono", monospace;
     border-radius: 8px;
     background: rgb(13, 19, 33);
-    color: white;
     padding: 21px 24px 21px 24px;
     font-family: "Azeret Mono", monospace;
     margin-left: 35%;
@@ -100,6 +103,8 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    background: rgba(13, 19, 33, 0.02);
+    border-radius: 16px;
 }
 
 .why-text {
@@ -287,6 +292,9 @@ body {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
 }
 
 .ins-content {
@@ -313,6 +321,7 @@ body {
     width: 1076px;
     height: 550px;
     border-radius: 16px;
+    margin-bottom: 10px;
 }
 
 /* my inspiration styles ends here */
@@ -568,3 +577,24 @@ body {
 }
 
 /* support styles ends here */
+/* footer styles starts here */
+
+.footer-container {
+    width: 1140px;
+    height: 36px;
+    margin: 0 auto;
+    margin-top: 111px;
+    margin-bottom: 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-container {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/* footer styles ends here */
